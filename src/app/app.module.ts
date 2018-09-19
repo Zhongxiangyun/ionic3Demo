@@ -7,6 +7,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { LoginPage } from '../pages/login/login';
+import { Login2Page } from '../pages/login2/login2';
+import { NewsPage } from '../pages/news/news';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,6 +21,8 @@ import { BackButtonService } from "../services/backButton.service";
     HomePage,
     TabsPage,
     LoginPage,
+    Login2Page,
+      NewsPage,
     SettingPage
   ],
   imports: [
@@ -32,6 +36,8 @@ import { BackButtonService } from "../services/backButton.service";
     HomePage,
     TabsPage,
     LoginPage,
+    Login2Page,
+      NewsPage,
     SettingPage
   ],
   providers: [
